@@ -1,0 +1,88 @@
+﻿@model IEnumerable<Doctors_WebForum.Models.Contact>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+@*
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CSubject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CMsg)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CSubject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CMsg)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+*@
+<h1 style="text-align:center">User Contact Message</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Subject</th>
+            <th scope="col">Message</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+@*                <td scope="row">@Html.DisplayFor(modelItem => item)</td>
+*@                <td>@Html.DisplayFor(modelItem => item.CId)</td>
+                <td>@Html.DisplayFor(modelItem => item.CName)</td>
+                <td>@Html.DisplayFor(modelItem => item.CEmail)</td>
+                <td>@Html.DisplayFor(modelItem => item.CSubject)</td>
+                <td>@Html.DisplayFor(modelItem => item.CMsg)</td>
+                @*<td>
+                    <a asp-action="Edit" asp-route-id="@item.DId">Edit</a>
+                </td>*@
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.CId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

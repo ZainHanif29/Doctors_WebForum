@@ -1,0 +1,237 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Doctors_WebForum
+build_property.RootNamespace = Doctors_WebForum
+build_property.ProjectDir = D:\ASP.NET CORE\E-Project\Doctor_WebFourm\E-Project\Doctors_WebForum\Doctors_WebForum\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ASP.NET CORE\E-Project\Doctor_WebFourm\E-Project\Doctors_WebForum\Doctors_WebForum
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/AdminRegs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZWdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/AdminRegs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZWdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/AdminRegs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZWdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/AdminRegs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZWdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/AdminRegs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZWdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Contactsadmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNhZG1pblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Contactsadmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNhZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Contacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorAppointmentsadmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQXBwb2ludG1lbnRzYWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorAppointmentsadmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQXBwb2ludG1lbnRzYWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorAppointments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQXBwb2ludG1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegsHome/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc0hvbWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegsHome/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc0hvbWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegsHome/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc0hvbWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegsHome/doc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc0hvbWVcZG9jLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegsHome/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc0hvbWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegsHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc0hvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/DoctorRegs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Experiences/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpZW5jZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Experiences/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpZW5jZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Experiences/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpZW5jZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Experiences/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpZW5jZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Experiences/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpZW5jZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Privacies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Privacies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Privacies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Privacies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Privacies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Qualifications/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbGlmaWNhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Qualifications/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbGlmaWNhdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Qualifications/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbGlmaWNhdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Qualifications/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbGlmaWNhdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Qualifications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbGlmaWNhdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Shared/Admin_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Specializations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlY2lhbGl6YXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Specializations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlY2lhbGl6YXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Specializations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlY2lhbGl6YXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Specializations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlY2lhbGl6YXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Specializations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlY2lhbGl6YXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/UserRegs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/UserRegs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/UserRegs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/UserRegs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/UserRegs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET CORE/E-Project/Doctor_WebFourm/E-Project/Doctors_WebForum/Doctors_WebForum/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fh9j07ts07

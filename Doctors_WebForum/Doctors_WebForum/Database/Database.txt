@@ -1,0 +1,77 @@
+drop database Doctors_WebForum
+
+create database Doctors_WebForum
+use Doctors_WebForum
+
+create table Admin_Reg(
+A_ID int IDENTITY(1,1) primary key ,
+A_Name varchar(30),
+A_Email varchar (50),
+A_Password varchar (10)
+);
+
+
+create table User_Reg(
+U_ID int IDENTITY(1,1) primary key ,
+U_Name varchar(30),
+U_Email varchar (50),
+U_Password varchar (10),
+U_Contact varchar(20),
+U_Address varchar(255)
+);
+
+
+create table Qualification(
+Q_ID int  IDENTITY(1,1) primary key ,
+Q_Name varchar(30)
+);
+
+create table Specialization(
+S_ID int IDENTITY(1,1) primary key ,
+S_Name varchar(30)
+);
+
+create table Experience(
+E_ID int IDENTITY(1,1) primary key ,
+E_Name varchar(30)
+);
+
+create table Privacy(
+P_ID int IDENTITY(1,1) primary key ,
+P_Name varchar(30)
+);
+
+
+create table Doctor_Reg(
+D_ID int IDENTITY(1332891,1) primary key ,
+D_Name varchar(30),
+D_Email varchar (50),
+D_Password varchar (10),
+D_Contact varchar(20),
+D_Address varchar(255),
+D_Privacy int references Privacy(P_ID),
+D_Qualification int references Qualification(Q_ID),
+D_Specialization int references Specialization(S_ID),
+D_Experience int references Experience(E_ID),
+D_Achivement varchar(50),
+D_Desc varchar (255)
+);
+
+create table Doctor_Appointment(
+AP_ID int IDENTITY(1,1) primary key ,
+AP_Name varchar(30),
+AP_Email varchar (50),
+AP_Phone varchar(30),
+AP_Date Date,
+AP_Specialization int references Specialization(S_ID),
+D_ID int references Doctor_Reg(D_ID),
+AP_Msg varchar(255)
+);
+
+create table Contact(
+C_ID int IDENTITY(1,1) primary key,
+C_Name varchar(30),
+C_Email varchar(30),
+C_Subject varchar(255),
+C_Msg varchar(255)
+);

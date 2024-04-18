@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Doctors_WebForum.Models.AdminReg>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+
+<h1 style="text-align:center">Admin Register Record</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Password</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td scope="row">@Html.DisplayFor(modelItem => item.AId)</td>
+                <td>@Html.DisplayFor(modelItem => item.AName)</td>
+                <td>@Html.DisplayFor(modelItem => item.AEmail)</td>
+                <td>@Html.DisplayFor(modelItem => item.APassword)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AId">Edit</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.AId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

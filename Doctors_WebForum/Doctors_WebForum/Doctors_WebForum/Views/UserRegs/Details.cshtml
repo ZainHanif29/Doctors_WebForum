@@ -1,0 +1,49 @@
+﻿@model Doctors_WebForum.Models.UserReg
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>UserReg</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UEmail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UEmail)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UPassword)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UPassword)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UContact)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UContact)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UAddress)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UAddress)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.UId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

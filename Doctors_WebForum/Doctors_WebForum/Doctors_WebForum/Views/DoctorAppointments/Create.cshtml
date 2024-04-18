@@ -1,0 +1,118 @@
+﻿@model Doctors_WebForum.Models.DoctorAppointment
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*
+<h1>Create</h1>
+
+<h4>DoctorAppointment</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ApName" class="control-label"></label>
+                <input asp-for="ApName" class="form-control" />
+                <span asp-validation-for="ApName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ApEmail" class="control-label"></label>
+                <input asp-for="ApEmail" class="form-control" />
+                <span asp-validation-for="ApEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ApPhone" class="control-label"></label>
+                <input asp-for="ApPhone" class="form-control" />
+                <span asp-validation-for="ApPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ApDate" class="control-label"></label>
+                <input asp-for="ApDate" class="form-control" />
+                <span asp-validation-for="ApDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ApSpecialization" class="control-label"></label>
+                <select asp-for="ApSpecialization" class ="form-control" asp-items="ViewBag.ApSpecialization"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DId" class="control-label"></label>
+                <select asp-for="DId" class ="form-control" asp-items="ViewBag.DId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ApMsg" class="control-label"></label>
+                <input asp-for="ApMsg" class="form-control" />
+                <span asp-validation-for="ApMsg" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+*@
+
+
+
+<!-- ======= Appointment Section ======= -->
+<section id="appointment" class="appointment section-bg">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Make an Appointment</h2>
+            <h2>Make an Appointment</h2>
+        </div>
+
+        <form  asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="row">
+                <div class="col-md-4 form-group">
+                    @*<label asp-for="ApName" class="control-label"></label>*@
+                    <input asp-for="ApName" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    @*<label asp-for="ApEmail" class="control-label"></label>*@
+                    <input asp-for="ApEmail" class="form-control" placeholder="Your email">
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    @*<label asp-for="ApPhone" class="control-label"></label>*@
+                    <input asp-for="ApPhone" class="form-control" placeholder="Your phone">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 form-group mt-3">
+                    @*<label asp-for="ApDate" class="control-label"></label>*@
+                    <input asp-for="ApDate" class="form-control" placeholder="Appointment Date">
+                </div>
+                <div class="col-md-4 form-group mt-3">
+                    @*<label asp-for="ApSpecialization" class="control-label"></label>*@
+                    <select asp-for="ApSpecialization" class="form-control" asp-items="ViewBag.ApSpecialization"></select>
+                    <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3">
+                    @*<label asp-for="DId" class="control-label"></label>*@
+                    <select asp-for="DId" class="form-control" asp-items="ViewBag.DId"></select>
+                </div>
+            </div>
+
+            <div class="form-group mt-3">
+                @*<label asp-for="ApMsg" class="control-label"></label>*@
+
+                <textarea class="form-control" asp-for="ApMsg" rows="5" placeholder="Message (Optional)"></textarea>
+            </div>
+
+            <div class="text-center">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+
+    </div>
+</section><!-- End Appointment Section -->
+

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Doctors_WebForum.Models.Specialization>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+
+<h1 style="text-align:center">Specialization Category</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td scope="row">@Html.DisplayFor(modelItem => item.SId)</td>
+                <td>@Html.DisplayFor(modelItem => item.SName)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.SId">Edit</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.SId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

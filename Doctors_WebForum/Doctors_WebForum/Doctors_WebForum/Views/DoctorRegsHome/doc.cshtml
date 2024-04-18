@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Doctors_WebForum.Models.DoctorReg>
+
+@{
+    ViewData["Title"] = "doc";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- ======= Doctors Section ======= -->
+<div class="row mt-5"></div>
+<div class="row mt-5"></div>
+
+<section id="doctors" class="doctors">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Doctors</h2>
+            <p>A qualified doctor is a highly trained and skilled medical professional dedicated to providing exceptional healthcare services. With years of rigorous education, practical training, and continuous learning, they possess a deep understanding of human anatomy, physiology, and the diagnosis and treatment of various medical conditions.</p>
+        </div>
+
+        <div class="row">
+            @foreach (var doc in Model)
+            {
+
+                <div class="col-lg-6">
+                    <div class="member d-flex align-items-start">
+                        <div class="pic"><img src="~/assets/img/doctors/doctors-1.png" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>@Html.DisplayFor(modelItem => doc.DName)</h4>
+                            <span>@Html.DisplayFor(modelItem => doc.DSpecializationNavigation.SName)</span>
+                            <p>Hi, My Name is @Html.DisplayFor(modelItem => doc.DName) I Specialization @Html.DisplayFor(modelItem => doc.DSpecializationNavigation.SName)</p>
+                            <span class="mb-2"></span>
+                            <a asp-controller="" asp-action="Details" asp-route-id="@doc.DId" class="btn btn-primary">Details</a>
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            }
+        </div>
+       
+        </div>
+        </section>
+        <!-- End Doctors Section -->
+
+

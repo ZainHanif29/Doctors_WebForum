@@ -1,0 +1,114 @@
+﻿@model IEnumerable<Doctors_WebForum.Models.DoctorAppointment>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+@*
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ApName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApMsg)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApSpecializationNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DIdNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApMsg)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApSpecializationNavigation.SId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DIdNavigation.DId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ApId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ApId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ApId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+*@
+
+<h1 style="text-align:center">Doctor Appointment Record</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Date</th>
+            <th scope="col">Department</th>
+            <th scope="col">Doctor Name</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*                <td scope="row">@Html.DisplayFor(modelItem => item)</td>
+            *@
+                <td>@Html.DisplayFor(modelItem => item.ApId)</td>
+                <td>@Html.DisplayFor(modelItem => item.ApName)</td>
+                <td>@Html.DisplayFor(modelItem => item.ApEmail)</td>
+                <td>@Html.DisplayFor(modelItem => item.ApPhone)</td>
+                <td>@Html.DisplayFor(modelItem => item.ApDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.ApSpecializationNavigation.SName)</td>
+                <td>@Html.DisplayFor(modelItem => item.DIdNavigation.DName)</td>
+
+                @*<td>
+            <a asp-action="Edit" asp-route-id="@item.DId">Edit</a>
+            </td>*@
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.ApId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,38 @@
+﻿@model Doctors_WebForum.Models.DoctorReg
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="doctors" class="doctors">
+    <div class="container">
+        <div class="mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="member d-flex align-items-start">
+                        <div class="pic"><img src="~/assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <span>ID: &emsp; @Html.DisplayFor(model => model.DId)</span>
+                            <span>Name: &emsp; @Html.DisplayFor(model => model.DName)</span>
+                            <span>Email: &emsp; @Html.DisplayFor(model => model.DEmail)</span>
+                            <span>Contact: &emsp; @Html.DisplayFor(model => model.DContact)</span>
+                            <span>Achivement: &emsp; @Html.DisplayFor(model => model.DAchivement)</span>
+                            <span>Qualification: &emsp; @Html.DisplayFor(model => model.DQualificationNavigation.QName)</span>
+                            <span>Specialization: &emsp; @Html.DisplayFor(model => model.DSpecializationNavigation.SName)</span>
+                            <span>Experience: &emsp; @Html.DisplayFor(model => model.DExperienceNavigation.EName)</span>
+
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

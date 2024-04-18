@@ -1,0 +1,43 @@
+﻿@model Doctors_WebForum.Models.AdminReg
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-outline mb-4">
+                <label @*asp-for="AName"*@ class="control-label">Enter Your Name</label>
+                <input asp-for="AName" class="form-control" />
+                <span asp-validation-for="AName" class="text-danger"></span>
+            </div>
+
+            <div class="form-outline mb-4">
+                <label @*asp-for="AEmail"*@ class="control-label">Enter Email</label>
+                <input asp-for="AEmail" class="form-control" />
+                <span asp-validation-for="AEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-outline mb-4">
+                <label @*asp-for="APassword"*@ class="control-label">Enter Password</label>
+                <input asp-for="APassword" class="form-control" />
+                <span asp-validation-for="APassword" class="text-danger"></span>
+            </div>
+
+
+            <!-- Submit button -->
+            <input type="submit" value="Create" class="btn btn-primary btn-block mb-4 text-center">
+
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
